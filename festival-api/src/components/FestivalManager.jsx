@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import './style.css';
-import config from './config.js';
+
 
 const FestivalManager = () => {
   const [festivals, setFestivals] = useState([]);
